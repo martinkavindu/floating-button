@@ -1,0 +1,44 @@
+.flaoting_parent{
+    position: fixed;
+    bottom: 8%;
+    right: 18px;
+    text-align: center;
+    color: blue;
+}
+ .flaoting_parent .right_button{
+
+    width: 60px;
+    height: 60px;
+    /* background: url(./img/message.png); */
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-color: #0693e3;
+    background-size: 24px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 0 -2px 3px -1px #00778b;
+}
+.flaoting_parent h1{
+    color: red;
+}
+.flaoting_parent .widgetlabe{
+    position: relative;
+    right: 20px;
+    top:-100px;
+    white-space: nowrap;
+    border: 0px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 16px;
+    padding: 10px 40px 10px 40px;
+    background:rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgb(0 18 46/24%) 0px 6px 32px 0px;
+
+}
